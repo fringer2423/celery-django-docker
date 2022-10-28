@@ -1,1 +1,1 @@
-# Django + Celery
+# Django + Celery + Docker
