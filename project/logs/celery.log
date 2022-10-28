@@ -3631,3 +3631,25 @@ KeyError: 'tasks.sample_tasks.create_task'
 [2022-10-28 11:21:42,813: INFO/MainProcess] Task tasks.sample_tasks.create_task[ecb4bbda-888b-42dd-92d7-ed8b91723881] received
 [2022-10-28 11:22:13,649: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[dc70b80b-d9b1-4855-a163-a83d80674306] succeeded in 31.00136326500069s: 499999999500000000
 [2022-10-28 11:22:13,704: INFO/ForkPoolWorker-3] Task tasks.sample_tasks.create_task[ecb4bbda-888b-42dd-92d7-ed8b91723881] succeeded in 30.86734401400099s: 499999999500000000
+[2022-10-28 11:44:27,419: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-10-28 11:44:27,424: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-28 11:44:28,439: INFO/MainProcess] mingle: all alone
+[2022-10-28 11:44:28,461: WARNING/MainProcess] /usr/local/lib/python3.9/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-28 11:44:28,463: INFO/MainProcess] celery@3bfc53cc67fa ready.
+[2022-10-28 11:44:30,099: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-10-28 11:44:35,072: INFO/MainProcess] Task tasks.sample_tasks.create_task[22874fb1-f206-4a3e-9f2b-349d0e5512fa] received
+[2022-10-28 11:46:04,437: INFO/ForkPoolWorker-1] Task tasks.sample_tasks.create_task[22874fb1-f206-4a3e-9f2b-349d0e5512fa] succeeded in 89.35480962400106s: 4499999998500000000
+[2022-10-28 11:47:56,002: INFO/MainProcess] Connected to redis://redis:6379/0
+[2022-10-28 11:47:56,007: INFO/MainProcess] mingle: searching for neighbors
+[2022-10-28 11:47:57,022: INFO/MainProcess] mingle: all alone
+[2022-10-28 11:47:57,063: WARNING/MainProcess] /usr/local/lib/python3.11/site-packages/celery/fixups/django.py:203: UserWarning: Using settings.DEBUG leads to a memory
+            leak, never use this setting in production environments!
+  warnings.warn('''Using settings.DEBUG leads to a memory
+
+[2022-10-28 11:47:57,067: INFO/MainProcess] celery@405d40517fb0 ready.
+[2022-10-28 11:47:58,513: INFO/MainProcess] Events of group {task} enabled by remote.
+[2022-10-28 11:48:14,860: INFO/MainProcess] Task tasks.sample_tasks.create_task[c0edb56b-b652-4fa0-8666-e557bc874caf] received
+[2022-10-28 11:49:31,344: INFO/ForkPoolWorker-3] Task tasks.sample_tasks.create_task[c0edb56b-b652-4fa0-8666-e557bc874caf] succeeded in 76.46417578399996s: 4499999998500000000
